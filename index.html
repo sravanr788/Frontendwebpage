@@ -19,7 +19,7 @@
    <h1>   This is my HTML Web Page </h1>
   
     <h3>Hi! I'm SRAVAN ,a passionate learner and explorer.</h3>
-    <p> I am a Kalvi Student</p></section>
+    <p class="pop text-pop-up-top">I am a Kalvi Student</p>
    
     <section id="About">
       <div class="about">
@@ -34,7 +34,8 @@
     </section>
     
     
-    <section id="Hobbies">
+    <section class="Hobbies">
+      <div>
       <h2>My Hobbies</h2>
       <ol class="hobbies-list">
         <li>
@@ -55,7 +56,8 @@
             <p>Playing Valorant</p>
           </div>
         </li>
-      </ol>
+      </ol> 
+    </div>
     </section> 
 
     <section id="Acheivements">
@@ -109,7 +111,53 @@
         </li>
       </ul>
     </section>
-    
+
+    <footer class="footer flex space-between">
+      <div>
+          
+        <style>
+          .marquee-container {
+            white-space: nowrap;
+            overflow: hidden;
+            animation: marquee 5s linear infinite;
+            width: 100%;
+          }
+        
+          @keyframes marquee {
+            0% {
+              transform: translateX(100%);
+            }
+            100% {
+              transform: translateX(-100%);
+            }
+          }
+        </style>
+        
+        <div class="marquee-container">
+          <h2>Brought to you by</h2>
+        </div>
+        
+            
+      <div id="pic">
+
+          </div> 
+      </div>
+      <div class="text">
+         <h3>Sravan Teja Reddy Kokkonda</h3>
+          <p id="Footertext">Made with love ✌️ by Kalvian
+              <br>
+              Talk to me at 
+              <u>sravanr788@gmail.com </u></p>
+      </div>
+
+      <!-- <div>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </div> -->
+  </footer>    
+
+
     
 </body>
 </html>
